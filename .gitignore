@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+build/
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+chat-history.json
+project-metadata.json
+
+# Local git overrides
+.git/
